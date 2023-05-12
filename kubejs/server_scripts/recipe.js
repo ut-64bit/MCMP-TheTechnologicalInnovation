@@ -1,3 +1,4 @@
 onEvent('recipes', e => {
-  // recipes
+  // remove
+  e.remove({mod:'minecraft', output:'minecraft:iron_ingot', type:'minecraft:blasting'})
 })
