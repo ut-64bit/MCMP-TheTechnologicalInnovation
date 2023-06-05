@@ -16,7 +16,4 @@ onEvent('recipes', event => {
 
   // ars_nouveau
   event.remove({ output: 'ars_nouveau:warp_scroll' })
-
-  // immersiveengineering
-  event.remove({output:'immersiveengineering:'})
 })
