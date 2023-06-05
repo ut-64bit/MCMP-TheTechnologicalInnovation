@@ -11,4 +11,7 @@ onEvent('recipes', event => {
   event.remove({id:'tconstruct:smeltery/seared/grout'})
   event.remove({id:'tconstruct:smeltery/seared/grout_multiple'})
   event.recipes.create.mixing('2x tconstruct:grout', ['minecraft:clay_ball', '#minecraft:sand', 'minecraft:gravel'])
+  
+  // ars_nouveau
+  event.remove({id:'ars_nouveau:warp_scroll'})
 })
