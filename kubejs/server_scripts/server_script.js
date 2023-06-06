@@ -3,6 +3,8 @@ onEvent('recipes', event => {
 
   // botania
   event.remove({ output: 'botania:flight_tiara' })
+  event.remove({ output: 'botania:mana_fluxfield' })
+  event.remove({ output: 'botania:conjuration_catalyst' })
 
   // tconstruct
   event.remove({ output: 'tconstruct:earth_slime_sling' })
@@ -12,6 +14,8 @@ onEvent('recipes', event => {
 
   event.remove({ id: 'tconstruct:smeltery/seared/grout' })
   event.remove({ id: 'tconstruct:smeltery/seared/grout_multiple' })
+
+  // create
   event.recipes.create.mixing('2x tconstruct:grout', ['minecraft:clay_ball', '#minecraft:sand', 'minecraft:gravel'])
 
   // ars_nouveau
