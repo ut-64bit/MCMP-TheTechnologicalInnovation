@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-  // all
+  // recipes
 
   // botania
   event.remove({ output: 'botania:flight_tiara' })
