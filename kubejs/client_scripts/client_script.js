@@ -1,8 +1,10 @@
 onEvent('jei.hide.items', event => {
-    // botanis
+    // botania
     event.hide('botania:flight_tiara')
     event.hide('botania:mana_fluxfield')
     event.hide('botania:conjuration_catalyst')
+    event.hide('botanicadds:energizera')
+    event.hide('botanicadds:energizera_floating')
 
     // tconstruct
     event.hide('tconstruct:earth_slime_sling')

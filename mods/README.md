@@ -5,3 +5,7 @@
 - AE2
 - Botania
 - Ars Nouvers
+- BlueSkies
+- KubeJS
+ - LootJS
+ - KubeJS Create
